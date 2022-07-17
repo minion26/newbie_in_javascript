@@ -20,3 +20,5 @@ const totalValue = numbers.reduce( (a,b) => a+b, 0)
 console.log(totalValue);
 
 
+let arrOfArr = [[1, 2], [3, 4], [5,6,7]]
+console.log(arrOfArr.reduce( (array1, array2) => array1.concat(array2)))
